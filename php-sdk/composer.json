@@ -1,0 +1,22 @@
+{
+  "name": "huoyan/php-sdk",
+  "type": "library",
+  "description": "PHP sdk for huoyan platform",
+  "keywords": [
+    "sdk",
+    "huoyan"
+  ],
+  "homepage": "https://github.com/huoyanyun/huoyan-sdk",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.0.0"
+  },
+  "autoload": {
+    "files": [
+      "config.php",
+      "HuoyanOauth2.php",
+      "HuoyanClient.php",
+      "OAuth2Exception.php"
+    ]
+  }
+}
