@@ -1,6 +1,7 @@
 <?php
 require_once 'HuoyanOauth2.php';
 require_once 'OAuth2Exception.php';
+require_once 'config.php';
 
 session_start();
 

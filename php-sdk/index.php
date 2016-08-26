@@ -18,7 +18,11 @@ $code_url = $ho->getAuthorizeURL(HY_CALLBACK_URL);
 
 <body>
 <!-- 授权按钮 -->
-<p><a href="<?= $code_url ?>"><img src="weibo_login.png" title="点击进入授权页面" alt="点击进入授权页面" border="0"/></a></p>
-
+<div>
+    <a href="<?= $code_url ?>">
+        <img src="huoyanlogo.png" title="点击进入授权页面" alt="点击进入授权页面" border="0"/>
+        <label>点击进入授权页面</label>
+    </a>
+</div>
 </body>
 </html>
