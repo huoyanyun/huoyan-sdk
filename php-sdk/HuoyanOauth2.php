@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+require_once "OAuth2Exception.php";
 
 /**
  * 火眼平台 OAuth2 认证类
@@ -283,7 +283,7 @@ class HuoyanOauth2
                     $url = "{$url}?{$postfields}";
                 }
         }
-        if ( isset($this->access_token) && $this->access_token )
+        if (isset($this->access_token) && $this->access_token)
             $url = "{$url}access_token={$this->access_token}";
         curl_setopt($ci, CURLOPT_URL, $url);
         curl_setopt($ci, CURLOPT_HTTPHEADER, $headers);

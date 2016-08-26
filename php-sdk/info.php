@@ -1,5 +1,6 @@
 <?php
-require 'vendor/autoload.php';
+require_once "HuoyanClient.php";
+require_once "config.php";
 
 session_start();
 

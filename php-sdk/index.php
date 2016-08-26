@@ -1,5 +1,6 @@
 <?php
-require 'vendor/autoload.php';
+require_once "HuoyanOauth2.php";
+require_once "config.php";
 
 session_start();
 
